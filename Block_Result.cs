@@ -17,4 +17,12 @@ void CreatNewString(string[] Strings)
     PrintNewString(SumStr);
 }
 
+bool IsNeed(string str)
+{
+    char[] arr = str.ToCharArray( );
+    if(arr.Length <= 3)
+        return true;
+    else return false;
+}
+
 main();
