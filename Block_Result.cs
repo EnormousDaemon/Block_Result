@@ -25,4 +25,10 @@ bool IsNeed(string str)
     else return false;
 }
 
+void PrintNewString(string SumStr)
+{
+    string[] NewStr= SumStr.Split();
+    Console.Write(string.Join(", ", NewStr));
+}
+
 main();
