@@ -6,3 +6,15 @@
     CreatNewString(Strings);
 }
 
+void CreatNewString(string[] Strings)
+{
+    string SumStr = "";
+    foreach(string e in Strings)
+    {
+        if(IsNeed(e))
+            SumStr = SumStr + e + " ";
+    }
+    PrintNewString(SumStr);
+}
+
+main();
